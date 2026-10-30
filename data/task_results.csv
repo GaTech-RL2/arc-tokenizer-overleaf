@@ -1,0 +1,5 @@
+task_id,task_label,success_rate_percent,is_placeholder
+sort_stationery,Sort stationery,55,true
+fold_towels,Fold towels,70,true
+earbuds,Earbuds,45,true
+vegetables_from_bag,Vegetables from bag,60,true

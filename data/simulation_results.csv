@@ -1,0 +1,17 @@
+setting,evaluation_case,training_regime,method,success_rate_percent,is_placeholder
+pusher,in_domain,bc,baseline,65,true
+pusher,in_domain,bc,arc,70,true
+pusher,in_domain,cotrain,baseline,75,true
+pusher,in_domain,cotrain,arc,72,true
+pusher,generalization,bc,baseline,40,true
+pusher,generalization,bc,arc,45,true
+pusher,generalization,cotrain,baseline,55,true
+pusher,generalization,cotrain,arc,52,true
+grabber,in_domain,bc,baseline,60,true
+grabber,in_domain,bc,arc,58,true
+grabber,in_domain,cotrain,baseline,78,true
+grabber,in_domain,cotrain,arc,82,true
+grabber,generalization,bc,baseline,35,true
+grabber,generalization,bc,arc,42,true
+grabber,generalization,cotrain,baseline,50,true
+grabber,generalization,cotrain,arc,48,true

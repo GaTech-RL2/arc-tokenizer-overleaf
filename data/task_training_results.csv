@@ -1,0 +1,9 @@
+task_id,training_scope,bc_baseline,bc_arc,cotrain_baseline,cotrain_arc,is_placeholder
+sort_stationery,single_task,55,58,62,60,true
+sort_stationery,multi_task,50,56,61,64,true
+fold_towels,single_task,70,68,72,76,true
+fold_towels,multi_task,65,71,75,73,true
+earbuds,single_task,45,50,54,52,true
+earbuds,multi_task,48,46,56,59,true
+vegetables_from_bag,single_task,60,63,66,64,true
+vegetables_from_bag,multi_task,57,62,68,65,true

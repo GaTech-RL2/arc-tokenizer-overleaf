@@ -1,0 +1,31 @@
+\section{Method}
+\label{sec:method}
+
+\subsection{Problem setup}
+\label{sec:problem-setup}
+
+\todo{Notation for observations, actions, and embodiments; the policy-learning
+objective.}
+
+\subsection{Arc Tokenizer}
+\label{sec:arc-tokenizer}
+
+\todo{How a trajectory is segmented into arcs by distance, how each arc is
+encoded and decoded, and the relevant hyperparameters.}
+
+\subsection{Policy training}
+\label{sec:policy-training}
+
+\todo{How the tokenizer is used in behavior cloning (BC) and in co-training,
+and what the Baseline uses in its place.}
+
+\subsection{Single-task and multi-task training}
+\label{sec:task-training-comparison}
+
+Each of the four tasks is trained both as a single-task policy and within one
+multi-task policy. Table~\ref{tab:task-training-comparison} compares Baseline
+and ARC under BC and co-training for both training scopes. The table reports
+task success rates using illustrative placeholder values pending measured
+evaluation results.
+
+\input{sections/generated/task_training_results_table}

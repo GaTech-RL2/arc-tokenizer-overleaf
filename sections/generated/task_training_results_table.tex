@@ -1,0 +1,28 @@
+% Generated from data/task_training_results.csv; edit the CSV, not this file.
+\begin{table}[htbp]
+  \centering
+  \caption{Single-task and multi-task comparisons across the four tasks. Columns report success rates (\%). All numbers are \textbf{illustrative placeholders}.}
+  \label{tab:task-training-comparison}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \renewcommand{\arraystretch}{1.1}
+  \begin{tabular}{@{}llrrrr@{}}
+    \toprule
+    Task & Training scope & \multicolumn{2}{c}{BC} & \multicolumn{2}{c}{Co-training} \\
+    \cmidrule(lr){3-4}\cmidrule(lr){5-6}
+     & & Baseline & ARC & Baseline & ARC \\
+    \midrule
+    Sort stationery & Single-task & 55 & 58 & 62 & 60 \\
+     & Multi-task & 50 & 56 & 61 & 64 \\
+    \addlinespace[3pt]
+    Fold towels & Single-task & 70 & 68 & 72 & 76 \\
+     & Multi-task & 65 & 71 & 75 & 73 \\
+    \addlinespace[3pt]
+    Earbuds & Single-task & 45 & 50 & 54 & 52 \\
+     & Multi-task & 48 & 46 & 56 & 59 \\
+    \addlinespace[3pt]
+    Vegetables from bag & Single-task & 60 & 63 & 66 & 64 \\
+     & Multi-task & 57 & 62 & 68 & 65 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
